@@ -29,7 +29,7 @@ int main() {
     second->next = third;
     third->prev = second;
 
-    // Assuming "tail" points to the last node of the list
+    
     Node* tail = third;
 
    
