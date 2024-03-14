@@ -32,7 +32,7 @@ int main() {
     // Assuming "tail" points to the last node of the list
     Node* tail = third;
 
-    // Traversing the doubly linked list from the end
+   
     traverseFromEnd(tail);
 
     return 0;
