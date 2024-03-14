@@ -19,7 +19,7 @@ void traverseFromEnd(Node* tail) {
 }
 
 int main() {
-    // Creating a sample doubly linked list
+    
     Node* head = new Node(1);
     Node* second = new Node(2);
     Node* third = new Node(3);
