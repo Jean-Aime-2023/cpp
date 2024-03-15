@@ -12,7 +12,6 @@ void selectionSort(int arr[],int n){
 				targetIndex = j;
 			}
 		}
-		
 		swap(arr[j],arr[targetIndex]);
 	}
 }
