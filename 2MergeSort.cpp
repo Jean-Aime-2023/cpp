@@ -34,7 +34,6 @@ void mergeArrays(int x[],int y[],int a[],int s,int e){
 
 
 
-
 void mergeSort(int a[],int s,int e){
     if(s>=e){
         return;
