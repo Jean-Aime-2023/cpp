@@ -62,7 +62,7 @@ void mergeArrays(int x[] ,int y[] , int a[] ,int s,int e){
 			i++;
 			k++;
 		}else{
-			a[k] = y[i];
+			a[k] = y[j];
 			i++;
 			k++;
 		}
