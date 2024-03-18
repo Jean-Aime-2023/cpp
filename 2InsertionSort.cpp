@@ -57,27 +57,24 @@ void mergeArrays(int x[] ,int y[] , int a[] ,int s,int e){
 	int j = mid + 1;
 	
 	while(i<=mid && j<=e){
-		if(x[i]>y[i]){
-			a[k] = x[i];
-			i++;
-			k++;
-		}else{
-			a[k] = y[j];
-			i++;
-			k++;
-		}
-	}
-	
-	while(i<=mid){
-		a[k] = x[i];
-			i++;
-			k++;
-	}
-	
-	while(j<=e){
-		a[k] = y[i];
-			i++;
-			k++;
-	}
+           if(x[i] < y[j]){
+            a[k] = x[i];
+            i++;
+            k++;
+           }else{
+             a[k] = y[j];
+             j++;
+             k++;
+           }
+       }
+       while(i<=mid){
+        a[k] = x[i];
+        k++;
+        i++;
+       }
+       while(j<=e){
+        a[k] = y[j];
+        k++;
+        j++;
+       }
 }
-
