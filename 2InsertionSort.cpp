@@ -47,7 +47,7 @@ void mergeSort(int a[] , int s , int e){
 	mergeArrays(x,y,a,s,e);
 }
 
-void mergeArrays(int x[] ,int y[] , int a[] , s, e){
+void mergeArrays(int x[] ,int y[] , int a[] ,int s, e){
 	int mid = (s+e)/2;
 	int i = s;
 	int k = s;
