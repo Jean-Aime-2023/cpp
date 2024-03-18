@@ -28,6 +28,7 @@ void selectionSort(int arr[],int n){
 	}
 }
 
+
 void mergeSort(int a[] , int s , int e){
 	if(s>=e){
 		return;
