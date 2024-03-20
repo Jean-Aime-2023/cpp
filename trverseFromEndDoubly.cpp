@@ -34,7 +34,6 @@ int main() {
 
    
     traverseFromEnd(tail);
-
     return 0;
 }
 
