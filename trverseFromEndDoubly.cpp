@@ -16,7 +16,7 @@ void traverseFromEnd(Node* tail) {
         cout << current->data << " ";
         current = current->prev;
     }
-    
+
 }
 
 int main() {
@@ -33,7 +33,6 @@ int main() {
     
     Node* tail = third;
 
-   
     traverseFromEnd(tail);
     return 0;
 }
