@@ -32,7 +32,6 @@ int main() {
 
     
     Node* tail = third;
-
     traverseFromEnd(tail);
     return 0;
 }
