@@ -29,8 +29,6 @@ int main() {
     second->prev = head;
     second->next = third;
     third->prev = second;
-
-    
     Node* tail = third;
     traverseFromEnd(tail);
     return 0;
