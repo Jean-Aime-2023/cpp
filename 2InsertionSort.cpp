@@ -120,6 +120,7 @@ Node* insertAtBeginning(Node* head, int newData) {
    return head;
 }
 
+
 // Function to insert a new node at the end
 Node* insertAtEnd(Node* head, int newData) {
    Node* newNode = new Node();
