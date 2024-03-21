@@ -101,6 +101,7 @@ struct Node {
 };
 
 
+
 // Function to insert a new node at the beginning
 Node* insertAtBeginning(Node* head, int newData) {
    Node* newNode = new Node();
